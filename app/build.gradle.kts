@@ -16,7 +16,7 @@ android {
         minSdk = 29
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         val mapkitApiKey = properties["MAPKIT_API_KEY"]
         buildConfigField("String", "MAPKIT_API_KEY", "\"${mapkitApiKey}\"")

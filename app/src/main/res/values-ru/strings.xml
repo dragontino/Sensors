@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accelerometer_hint">Акселерометр</string>
+    <string name="gyroscope_hint">Гироскоп</string>
+    <string name="location_hint">Местоположение</string>
+    <string name="cell_hint">Соты</string>
+    <string name="accelerometer_data"><b>Ускорение (м/с^2):</b>\nx=%1$.3f; y=%2$.3f; z=%3$.3f.</string>
+    <string name="gyroscope_data"><b>Скорость вращения (рад/с):</b>\nx=%1$.3f; y=%2$.3f; z=%3$.3f</string>
+    <string name="location_text"><b>Координаты:</b>\nширота = %1$.4f\nдолгота = %2$.4f\nвысота: %3$.4f\nпровайдер: %4$s\nвремя: %5$tF %5$tT</string>
+    <string name="cell_text"><b>Информация о сотах:</b>\nтип: %1$s\nid: %2$s\nоператор: %3$s\nуровень сигнала: %4$s\nКод региона местоположения: %5$s\nвремя: %6$tF %6$tT</string>
+    <string name="you_are_here">Вы здесь!</string>
+    <string name="write_all_data">Записать все данные</string>
+    <string name="all_data_saved">Все данные сохранены</string>
+    <string name="close_action">Закрыть</string>
+    <string name="data_saved">Данные записаны в файл %1$s</string>
+</resources>

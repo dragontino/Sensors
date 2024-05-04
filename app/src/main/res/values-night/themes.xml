@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PhoneSensors" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!--  Colors   -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryContainer">#FF6B0900</item>
+        <item name="colorSecondary">#FFFBF7F4</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimaryContainer">#FFFBF7F4</item>
+        <item name="colorOnSecondary">@color/orange</item>
+        <item name="backgroundColor">@color/background_color</item>
+        <item name="colorOnBackground">@color/white</item>
+    </style>
+</resources>

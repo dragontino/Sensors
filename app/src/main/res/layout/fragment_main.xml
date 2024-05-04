@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MainFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/app_name"
+        app:titleCentered="true"
+        app:titleTextColor="@color/text_color"
+        app:titleTextAppearance="@style/TextAppearance.Material3.ActionBar.Title">
+    </com.google.android.material.appbar.MaterialToolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/accelerometer_info"
+                layout="@layout/text_view_with_trailing_action"/>
+
+            <include
+                android:id="@+id/gyroscope_info"
+                layout="@layout/text_view_with_trailing_action"/>
+
+            <include
+                android:id="@+id/location_info"
+                layout="@layout/text_view_with_trailing_action"/>
+
+            <include
+                android:id="@+id/cell_info"
+                layout="@layout/text_view_with_trailing_action"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/save_all_info_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:text="@string/write_all_data"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                app:cornerRadius="15dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

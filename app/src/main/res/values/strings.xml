@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">Phone Sensors</string>
+    <string name="accelerometer_hint">Accelerometer</string>
+    <string name="gyroscope_hint">Gyroscope</string>
+    <string name="location_hint">Location</string>
+    <string name="cell_hint">Cells</string>
+    <string name="accelerometer_data"><b>Acceleration (m/c^2):</b>\nx=%1$.3f; y=%2$.3f; z=%3$.3f.</string>
+    <string name="gyroscope_data"><b>Rotation speed (rad/c):</b>\nx=%1$.3f; y=%2$.3f; z=%3$.3f</string>
+    <string name="location_text"><b>Coordinates:</b>\nlatitude = %1$.4f\nlongitude = %2$.4f\naltitude: %3$.4f\nprovider: %4$s\ntimestamp: %5$tF %5$tT</string>
+    <string name="cell_text"><b>Information about cells:</b>\ntype: %1$s\nid: %2$s\nnetwork operator: %3$s\nsignal strength: %4$s\nlocation area code: %5$s\ntimestamp: %6$tF %6$tT</string>
+    <string name="open_the_map" translatable="false">Open the map</string>
+    <string name="switch_theme" translatable="false">Switch theme</string>
+    <string name="you_are_here">You are here!</string>
+    <string name="write_all_data">Write all data</string>
+    <string name="all_data_saved">All data is saved</string>
+    <string name="close_action">Close</string>
+    <string name="data_saved">Data is written to a file %1$s</string>
+</resources>
